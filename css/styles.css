@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f3ec; /* Fondo suave */
-    color: #3b2a1b; /* Texto marrón oscuro */
+    background-color: #f5f3ec; 
+    color: #3b2a1b; 
 }
 
 header {
-    background-image: url('[url_imagen_fondo]'); /* Cambia a una imagen adecuada */
+    background-image: url('[url_imagen_fondo]'); 
     background-size: cover;
     padding: 100px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar legibilidad */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .navbar {
@@ -16,32 +16,42 @@ header {
 }
 
 .card {
-    border: 1px solid #b8a59d; /* Bordes marrón suave */
+    border: 1px solid #b8a59d; 
 }
 
 .card-title {
-    color: #3b2a1b; /* Texto marrón oscuro */
+    color: #3b2a1b; 
 }
 
 .card-body {
-    background-color: #e5d6c5; /* Fondo de la tarjeta marrón claro */
+    background-color: #e5d6c5; 
 }
 
 footer {
-    background-color: #b59f85; /* Marrón suave para el footer */
+    background-color: #b59f85; 
     color: white;
 }
 
 h2 {
     margin-top: 50px;
-    color: #3b2a1b; /* Marrón oscuro */
+    color: #3b2a1b;
 }
 
 .btn-dark {
-    background-color: #5c4a3a; /* Botón marrón oscuro */
+    background-color: #5c4a3a; 
     border-color: #5c4a3a;
 }
 
 .btn-dark:hover {
-    background-color: #7a5a46; /* Botón más claro al pasar el mouse */
+    background-color: #7a5a46;
 }
+
+.productos-bg {
+    background-image: url('../imagenes/fondoproductos.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px 0; 
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    }
