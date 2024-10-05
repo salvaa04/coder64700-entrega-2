@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f3ec; /* Fondo suave */
+    color: #3b2a1b; /* Texto marrón oscuro */
+}
+
+header {
+    background-image: url('[url_imagen_fondo]'); /* Cambia a una imagen adecuada */
+    background-size: cover;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar legibilidad */
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #b8a59d; /* Bordes marrón suave */
+}
+
+.card-title {
+    color: #3b2a1b; /* Texto marrón oscuro */
+}
+
+.card-body {
+    background-color: #e5d6c5; /* Fondo de la tarjeta marrón claro */
+}
+
+footer {
+    background-color: #b59f85; /* Marrón suave para el footer */
+    color: white;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #3b2a1b; /* Marrón oscuro */
+}
+
+.btn-dark {
+    background-color: #5c4a3a; /* Botón marrón oscuro */
+    border-color: #5c4a3a;
+}
+
+.btn-dark:hover {
+    background-color: #7a5a46; /* Botón más claro al pasar el mouse */
+}
