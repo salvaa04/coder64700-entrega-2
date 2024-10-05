@@ -55,3 +55,35 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5); 
     
     }
+    .contacto-bg {
+        background-image: url('../imagenes/fondocontactos.webp'); 
+        background-size: cover; 
+        background-position: center; 
+        padding: 50px 0; 
+        color: white; 
+        min-height: 400px; 
+    }
+    .info-bg {
+        background-image: url('../imagenes/fondoinfo.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        padding: 50px 0; 
+        color: white; 
+        min-height: 400px; 
+    }
+        .descripcion {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-size: 20px; 
+            margin: 20px 0; 
+    }
+    .index-bg {
+        background-image: url('../imagenes/fondoinicio.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        min-height: 100vh; 
+        color: white; 
+        padding: 50px 0; 
+    }
+    
+    
